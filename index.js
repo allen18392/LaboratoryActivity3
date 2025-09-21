@@ -54,4 +54,8 @@ function multiplicationTable(n) {
    }
 }
 
+let GRADE = calculateGrade(base_no);
+console.log("Your grade is " + GRADE);
+showStars(base_no);
+isPrime(base_no);
 multiplicationTable(base_no);
